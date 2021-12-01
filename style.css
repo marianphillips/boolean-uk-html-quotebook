@@ -15,6 +15,7 @@ header {
 
 header h1 {
     padding: 1rem;
+    font-family: 'M PLUS 1 Code', sans-serif;
 }
 
 nav {
@@ -77,10 +78,6 @@ div {
     text-align: center;
 }
 
-.quote:nth-child(even) {
-    color: gray;
-}
-
 .author {
     font-variant: small-caps;
     text-align: right; 
@@ -98,7 +95,7 @@ p {
     font-size: 1.5rem;
 }
 
-div:nth-child(odd) {
+div:nth-of-type(even) {
     color: gray;
 }
 
